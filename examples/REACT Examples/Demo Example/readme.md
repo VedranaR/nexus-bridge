@@ -24,6 +24,25 @@ This is not an example of implementation that can be used on production. It is i
 1. Clone the project `git clone https://github.com/ideaportriga/nexus-bridge` or download and unpack [the project's archive](../../../../../archive/master.zip).
 
 1. Import [sif-file](https://raw.githubusercontent.com/ideaportriga/nexus-bridge/master/examples/REACT%20Examples/Demo%20Example/SIF/N19_React_Objects.sif) _(use the mouse right click and `Save link as...` to download the file)_ into the Siebel Tools.
+   - In the sif-file, there are following objects, which you will have to compile locally in your srf file:
+      - Applet:
+      name: "N19 React Contact List Applet"
+      name: "N19 React SIS Account Entry Applet"
+
+      - Business Component: 
+      name: "N19 Account"
+
+      - View: 
+      name: "N19 React Account View"
+
+      - Screen:
+      name: "N19 React Account Screen"
+
+      - Business Object: 
+      name: "N19 Account"
+
+      - Link:
+      name: "N19 Account/N19 Acc Contact"
 
 1. Add the `Nexus React Account Screen` to your application:
 
